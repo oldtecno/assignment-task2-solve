@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.display-flex{  /* common style */
+    display: flex;
+} /* common style */ 
+
+
+:root{ /* root items */
+    --btn-and-logo-col:orange;
+    --p-col:#686767;
+
+    --main-text-size:2.5rem;
+    --main-text-width:800;
+    --p-size:1.1rem;
+    --btn-size:1.2rem;
+    --btn-radius:20px;
+    /* --span-family:; */
+} /* root items */
+
+
+.for_phone_icon{ /* for phone */
+    display: none;
+} /* for phone */
+
+
+/* ..........................................START now now NOW..................................................... */
+
+
+
+.header_container{
+    height: 100vh;
+}
+body{
+    background: rgb(0, 0, 0);
+}
+
+
+
+
+.nav_container{
+    justify-content: space-between;
+    width: 90%;
+    height: 70px;
+    margin: 0px auto;
+    align-items: center;
+}
+.nav_container > h1{
+    font-size: 2.1rem;
+    color: var(--btn-and-logo-col);
+}
+.nav_items{
+    align-items: center;
+    width: 37%;
+    justify-content: space-between;
+    border: 1px solid #3d3d3d73;
+    border-radius: 20px;
+    padding-right: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+}
+.link:nth-child(1){
+    padding: 5px 35px;
+    background-color: var(--btn-and-logo-col);
+    border-radius: var(--btn-radius);
+}
+.link{
+    list-style-type: none;
+}
+.link > a{
+    text-decoration: none;
+    font-size: var(--btn-size);
+}
+/*...................................................... END nav part........................................ */
+.banner_container{
+    margin-top: 80px;
+}
+.div_container{
+    width: 90%;
+    margin: 0px auto;
+}
+.left_div{
+    width: 50%;    
+}
+.left_div > div > h1{
+    font-size: 4rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.left_div > div >p{
+    color: var(--p-col);
+    font-size: var(--p-size);
+}
+.btn_container{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.btn_container > a > button{
+    border: none;
+    background: none;
+    font-size:var(--btn-size) ;
+}
+.btn_container > a{
+    padding: 9px 30px;
+    border-radius:var(--btn-radius) ;
+    background-color: var(--btn-and-logo-col);
+    border: 1ps solid white;
+}
+.btn:nth-child(2){
+    background-color: transparent;
+
+}
+
+
+
+
+.right_div{
+    width: 50%;
+}
+.transparent_div{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 80px;
+    width: 200px;
+    background: #fffffff5;
+    backdrop-filter:blur(10px);
+    border: 1ps solid white;
+}
+.scircle{
+    width: 50px;
+    height: 50px;
+    background-color: var(--btn-and-logo-col);
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+/* ...............END HEADER PART............ */
