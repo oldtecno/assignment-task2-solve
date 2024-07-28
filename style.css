@@ -406,3 +406,141 @@ main{
 
 
 
+
+
+.BMI_Calculator_container{
+    width: 50%;
+    margin-top:150px ;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.BMI_Calculator_text > h1{
+    font-size: var(--main-text-size);
+    font-weight: var(--main-text-width);
+}
+.BMI_Calculator_text > p{
+    font-size: var(--p-size);
+    color: var(--p-col);
+}
+.BMI_Calculator_cards{
+    background:  #1b1b1b;
+    padding: 30px;
+}
+.BMI_Calculator_cards > .left_card{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.BMI_Calculator_cards > .left_card >div> h1{
+    font-size: 34px;
+    font-weight: 200;
+    margin-top: 25px;
+}
+
+
+.table_contaoner{
+    display: flex;
+    justify-content: center;
+}
+
+
+table{
+    border-color: rgb(170, 170, 170);
+    border-collapse: collapse;
+    table-layout: auto;
+}
+th{
+    font-size: 23px;
+    font-weight: 200;
+    padding: 10px 15px;
+}
+td{
+    padding: 5px 15px;
+    font-weight: 200;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+    color: var(--p-col);
+} 
+
+.BMI_Calculator_cards > .right_card{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.BMI_Calculator_cards > .right_card > div >h1{
+    font-size: 34px;
+    font-weight: 200;
+    margin-top: 25px;
+}
+.BMI_Calculator_cards > .right_card > div >p{
+    font-size: var(--p-size);
+    color: #c9c2c2bd;
+}
+.input_container{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 8px;
+    column-gap: 18px;
+}
+input{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 25px;
+    color: #a1a1a1;
+    background-color:  #333333;;
+    font-size: 1.5rem;
+    padding: 5px 5px;
+    width:calc(100% - 10px);
+}
+.input{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 25px;
+    color: #a1a1a1;
+    background-color:  #333333;;
+    font-size: 1.5rem;
+    width: 100%;
+}
+.option{
+    color: #8f8f8fad;
+    height: 34px;
+    font-size: 1.4rem;
+}
+
+::placeholder{
+    font-size: 20px;
+    color: #8f8f8fad;
+}
+.span_input{
+    grid-column: span 2;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 40px;
+    color: #8f8f8fad;
+    background-color:  #333333;
+    font-size: 1.4rem;
+    padding: 5px 5px;
+    width: 100%;
+}
+button[type="submit"]{
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px 60px;
+    background: var(--btn-and-logo-col);
+    border: none;
+    border-radius: var(--btn-radius);
+    font-size: var(--btn-size);
+}
+
+/* ...............................................................END MAIN CONTAINER'S 4 PART */
+
+
+
+
+
