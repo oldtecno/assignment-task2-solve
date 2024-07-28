@@ -2,40 +2,81 @@
     padding: 0;
     margin: 0;
     color: white;
+    scroll-behavior: smooth;
 }
-.display-flex{  /* common style */
+
+/* ...............................................................ALL HTML STYLE END */
+
+
+
+
+.display-flex{ 
     display: flex;
-} /* common style */ 
+}
+/* ....................................................................COMMON ITEMS END*/
 
 
-:root{ /* root items */
-    --btn-and-logo-col:orange;
-    --p-col:#686767;
+
+
+
+
+
+:root{ 
+    --btn-and-logo-col:#E6533C;
+    --p-col:#c9c2c2c7;
 
     --main-text-size:2.5rem;
     --main-text-width:800;
     --p-size:1.1rem;
     --btn-size:1.2rem;
     --btn-radius:20px;
-    /* --span-family:; */
-} /* root items */
+}
+/* ..............................................................................ROOT END*/
 
 
-.for_phone_icon{ /* for phone */
+
+
+
+
+
+
+
+.for_phone_icon{
     display: none;
-} /* for phone */
+}
+/* .............................................................................END FOR PHONE */
 
 
-/* ..........................................START now now NOW..................................................... */
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* ..........................................START NOW NOW NOW..................................................... */
 
 .header_container{
     height: 100vh;
+    background: linear-gradient( #131313 0%,#000000dc, #000000 100%);
 }
-body{
-    background: rgb(0, 0, 0);
+
+main{
+    background: black;
+    padding-bottom: 190px;
 }
+/*...................................................................................FULL HTML BACKGROUND*/
+
+
+
+
+
 
 
 
@@ -52,18 +93,18 @@ body{
     color: var(--btn-and-logo-col);
 }
 .nav_items{
-    align-items: center;
     width: 37%;
+    align-items: center;
     justify-content: space-between;
-    border: 1px solid #3d3d3d73;
+    border: 1px solid #bebebe73;
     border-radius: 20px;
-    padding-right: 30px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 3px;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    padding-left: 2px;
+    padding-right: 9px;
 }
-.link:nth-child(1){
-    padding: 5px 35px;
+.link:nth-child(1) > a{
+    padding: 7px 36px;
     background-color: var(--btn-and-logo-col);
     border-radius: var(--btn-radius);
 }
@@ -73,25 +114,34 @@ body{
 .link > a{
     text-decoration: none;
     font-size: var(--btn-size);
+    color: white;
+    padding: 10px;
 }
-/*...................................................... END nav part........................................ */
-.banner_container{
-    margin-top: 80px;
-}
+
+/*..............................................................................END NAV PART*/
+
+
+
+
+
+
+
+
 .div_container{
     width: 90%;
     margin: 0px auto;
 }
-.left_div{
+.div_container>.left_div{
     width: 50%;    
+    margin-top: 80px;
 }
 .left_div > div > h1{
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 900;
     margin-bottom: 20px;
 }
 .left_div > div >p{
-    color: var(--p-col);
+    color: white;
     font-size: var(--p-size);
 }
 .btn_container{
@@ -100,23 +150,21 @@ body{
     gap: 20px;
 }
 .btn_container > a > button{
+    cursor: pointer;
     border: none;
     background: none;
     font-size:var(--btn-size) ;
 }
-.btn_container > a{
+.btn_container > .btn{
     padding: 9px 30px;
     border-radius:var(--btn-radius) ;
     background-color: var(--btn-and-logo-col);
-    border: 1ps solid white;
 }
 .btn:nth-child(2){
     background-color: transparent;
+    border: 1px solid white;
 
 }
-
-
-
 
 .right_div{
     width: 50%;
@@ -125,18 +173,92 @@ body{
     display: flex;
     justify-content:center ;
     align-items: center;
-    height: 80px;
-    width: 200px;
-    background: #fffffff5;
-    backdrop-filter:blur(10px);
-    border: 1ps solid white;
+    height: 90px;
+    width: 190px;
+    background: rgba(252, 252, 252, 0.082);
+    backdrop-filter:blur(9px);
+    border-radius: 10px;
+}
+.transparent_div:nth-child(2){
+    position: absolute;
+    top: 70%;
+    right: 35%;
+}
+.transparent_div:nth-child(1){
+    position: absolute;
+    right: 5%;
+    top: 40%;
 }
 .scircle{
     width: 50px;
     height: 50px;
     background-color: var(--btn-and-logo-col);
     border-radius: 100%;
+    margin-left: 2px;
     margin-right: 20px;
 }
 
-/* ...............END HEADER PART............ */
+.banner_img{
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+}
+.banner_img img{
+
+    width:fit-content;
+    height: 100%;
+
+}
+
+/* ..........................................................................END HEADER PART*/
+
+
+
+
+
+
+
+
+
+.main_container_1_part{
+    width: 90%;
+    margin: 0px auto;
+}
+.Change_Your_Habits_container{
+    text-align: center;
+}
+.Change_Your_Habits_container > h1{
+    font-size: var(--main-text-size);
+    font-weight:var(--main-text-width);
+    margin-bottom: 10px;
+    padding-top:100px;
+}
+.Change_Your_Habits_container > p{
+    font-size: var(--p-size);
+    color: var(--p-col);
+}
+.img_card_container{
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.card > img{
+    border-radius: 100%;
+    border: 5px solid #1b1b1b;
+}
+
+.card > h1{
+    font-weight: 700;
+    margin-top: 10px;
+}
+.card > p{
+    color: var(--p-col);
+    font-size:17px ;
+    margin-top: 10px;
+}
+
+/* ..........................................................................END MAIN CONTAINER'S 1 PART */
+
+
+
+
