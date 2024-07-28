@@ -674,3 +674,287 @@ a{
 
 /* ....................................................................END FOOTER PART */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .................................................FOR PHONE................................................................... */
+/* ..................................................FOR PHONE................................................................ */
+
+@media screen and (max-width:576px) {
+    .header_container {
+        /* height: 134vh; */ 
+        height: 100%;
+    }
+    .nav_container > h1{
+        font-size: 1.5rem;
+    }
+    .for_phone_icon{
+        display: inherit;
+    }
+    .nav_items{
+        display: none;
+    }
+    /* .................................................................................END NAV*/
+    
+    
+    
+    .div_container{
+        flex-direction: column;
+        /* gap: 20px; */
+        align-items: center;
+    }
+    .div_container>.left_div {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .left_div > div>h1{
+        text-align: center;
+        font-size: 2.7rem;
+    }
+    .left_div > div >p{
+        text-align: center;
+        font-size:medium;
+    }
+    .btn_container{
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .btn_container > a {
+        padding: 9px 15px;
+    }
+    .btn_container > a > button{
+        font-size: 0.9rem;
+    }
+    .right_div {
+        width: 100%;
+    }
+    .transparent_div{
+        height: 50px;
+        width: 107px;
+        border-radius: 4px;
+    }
+    .transparent_div > div > h1{
+        font-size: 20px;
+    }
+    .transparent_div > div > p{
+        font-size: 10px;
+    }
+    .transparent_div:nth-child(1){ 
+        right: 8%;
+        top: 100%;
+    }
+    .scircle{
+        width: 42%;
+        height:65%;
+        margin-left: 13px;
+    }
+    .transparent_div:nth-child(2){ 
+        right: 60%;
+        top: 85%;
+    }
+    .banner_img {
+        height: 100vw;
+    }
+
+    
+    /* .......................................................................HERDER PART END*/
+
+
+
+
+
+    .img_card_container{
+        flex-direction: column;
+        gap: 55px;
+    }
+    /* ................................................................END MAIN CONTAINER'S 1 PART*/
+
+    .main_container_2_part_card_div{
+        flex-direction: column;
+        padding-bottom:8px;
+        padding-left:8px;
+        padding-right:8px;
+        align-items: center;
+    }
+    .main_container_2_part_card_div > .left_div {
+        width: 95%;
+    }
+    .main_container_2_part_card_div > .left_div >h1{
+        font-size: 1.8rem;
+        margin-top: 10px;
+    }
+    .main_container_2_part_card_div > .left_div >p{
+        font-size: 1rem;
+    }
+    .left_card_btn > div {
+       text-align: center;
+    }   
+    .left_card_btn >div> a {
+        padding-left:25px ;
+        padding-right:25px ;
+        display: block;
+    }
+
+    .main_container_2_part_card_div > .fight_div{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    /* .................................................................END MAIN CONTAINER'S 2 PART */
+
+
+
+
+    .main_container_3_part {
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+
+    .img6{
+        display: none;
+    }
+    .img5{
+        display: none;
+    }
+    .img_h1{
+        font-size: 10px;
+        font-weight: 200;
+    }
+    .grid_img_container {
+        display: grid;
+        grid-template-rows: repeat(2, 100px);
+       grid-template-areas: 
+       "img2    img2    img1    img1    img1    img1    img1"
+       "img3    img3    img3    img4    img4    img4    img4"
+       ;
+    }
+
+    /* ................................................................END MAIN CONTAINER'S 3 PART */
+
+
+
+
+
+    .BMI_Calculator_container {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .BMI_Calculator_cards{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .BMI_Calculator_cards > .left_card {
+        width: 100%;
+    }
+    th {
+        padding: 10px 10px;
+        font-weight: 200;
+    }
+    td {
+        padding: 10px 5px;
+    }
+    .BMI_Calculator_cards > .right_card {
+        width: 100%;
+    }
+    .input_container {
+        gap: 15px;
+    }
+    input {
+        font-size: 1.3rem;
+    }
+    ::placeholder{
+        font-size: 1.1rem;
+    }
+
+    /* ............................................END MAIN CONTAINER'S 4 PART */
+
+
+
+
+    .img_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .img_container > div > h2 {
+        font-weight: 900;
+        right: -3%;
+        bottom: 30%;
+        font-size: 20px;
+    }
+    .img_container > div > p {
+        font-weight: 900;
+        bottom: 25%;
+        right: -3%;
+        font-size: 14px;
+    }
+    /* .......................................................END MAIN CONTAINER'S 5 PART */
+
+
+
+
+    .footer_cards{
+        flex-direction: column;
+    }
+    .left_card >h1{
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .mid_card >h1{
+        margin-bottom: 0px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .right_card >h1{
+        font-size: 26px;
+        text-align: center;
+    }
+    .mid_link_container > li{
+        padding: 8px;
+        text-align: center;
+    }
+    a {
+        font-size: 1rem;
+    }
+    .right_card > h1{
+        margin-bottom: 0px;
+        margin-top: 50px;
+    }
+    .right_link_container > li{
+        padding: 10px;
+        text-align: center;
+    }
+    .border{
+        width: 90%;
+        background-color: var(--p-col);
+    }
+    .footer_bottom > h2{
+        font-size: 20px;
+    }
+    /* ........................................................END FOOTER PART */
+
+}
+
