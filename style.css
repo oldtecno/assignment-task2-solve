@@ -262,3 +262,55 @@ main{
 
 
 
+
+.main_container_2_part{
+    margin-top: 100px;
+}
+.main_container_2_part_card_div{
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto;
+    border-radius: var(--btn-radius);
+    background-color: #1b1b1b;
+    box-sizing: border-box;
+    padding: 20px 30px;
+}
+.main_container_2_part_card_div > .left_div{
+    width: 50%;
+}
+.main_container_2_part_card_div > .left_div >h1 {
+    font-size: 50px;
+    font-weight: var(--main-text-width);
+    margin-top: 50px;
+}
+.main_container_2_part_card_div > .left_div > p{
+    font-size: 1.2rem;
+    color: white;
+}
+.left_card_btn{
+    margin-top: 40px;
+
+}
+.left_card_btn >div> a{
+    padding: 10px 85px;
+    background-color: var(--btn-and-logo-col);
+    border-radius: var(--btn-radius);
+}
+.left_card_btn > div>a > button{
+    font-size: var(--btn-size);
+    background: none;
+    border: none;
+}
+
+
+.main_container_2_part_card_div > .fight_div{
+    width: 50%;
+}
+
+.main_container_2_part_card_div > .fight_div > img{
+    width: 100%;
+    border-radius: var(--btn-radius);
+    box-shadow: 6px 3px 10px 0px #000000;
+}
+
+/* ......................................................................END MAIN CONTAINER'S 2 PART */
