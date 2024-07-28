@@ -314,3 +314,95 @@ main{
 }
 
 /* ......................................................................END MAIN CONTAINER'S 2 PART */
+
+
+
+
+
+
+.main_container_3_part{
+    margin-top:180px ;
+}
+.Trainings_and_Exercises_text{
+    width: 90%;
+    margin:25px auto;
+}
+.Trainings_and_Exercises_text > h1{
+    font-size: var(--main-text-size);
+    font-weight: var(--main-text-width);
+}
+.Trainings_and_Exercises_text > p{
+    font-size: var(--p-size);
+    color: var(--p-col);
+}
+
+.grid_img_container{
+    width: 90%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(1, 100px);
+    grid-template-rows: repeat(2, 255px);
+    grid-template-areas: 
+    
+    "img1   img1    img2    img2    img2    img5    img5"
+    "img4   img4    img4    img3    img6    img6    img6"
+
+    ;
+}
+.img1{
+    grid-area: img1;
+    background: linear-gradient(#00ffff54,#00ffff4b) , url(./images/exercise1.jpg)no-repeat;
+    background-position:left center;
+    background-size: cover;
+    align-items: start;
+    justify-content: center;
+}
+.img2{
+    grid-area: img2;
+    background: linear-gradient(#ff00005b,#ff000048) ,url(./images/exercise2.png)no-repeat;
+    background-position: top center;
+    background-size: cover;
+    align-items: start;
+    justify-content: end;
+}
+.img3{   
+    grid-area: img3;
+    background: linear-gradient(#3cff005e,#3cff005e) ,url(./images/exercise5.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: end;
+    justify-content: center;
+}
+.img4{
+    grid-area: img4;
+    background: linear-gradient(#0000002c,#0000007a) ,url(./images/exercise4.png)no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    align-items: start;
+    justify-content: end;
+}
+.img5{
+    grid-area: img5;    
+    background: linear-gradient(#0000005b,#00000049) ,url(./images/exercise3.png)no-repeat;
+    background-position: top  center;
+    background-size: cover;
+    align-items: end;
+    justify-content: center;
+}
+.img6{
+    grid-area: img6;
+    background: linear-gradient(#002fff69,#002fff69) ,url(./images/exercise6.jpg)no-repeat;
+    background-position: bottom center;
+    background-size: 100%;
+    align-items: center;
+    justify-content: end;
+}
+
+/* ...............................................................END MAIN CONTAINER'S 3 PART*/
+
+
+
+
+
+
+
