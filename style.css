@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     color: white;
-    scroll-behavior: smooth;
+    font-family: "Inter", sans-serif;
 }
 
 /* ...............................................................ALL HTML STYLE END */
@@ -26,7 +26,7 @@
     --p-col:#c9c2c2c7;
 
     --main-text-size:2.5rem;
-    --main-text-width:800;
+    --main-text-width:600;
     --p-size:1.1rem;
     --btn-size:1.2rem;
     --btn-radius:20px;
@@ -50,7 +50,11 @@
 
 
 
-
+.span{
+    font-family: 'Miama', sans-serif;
+    font-size: 5rem;
+    letter-spacing: 1px;
+}
 
 
 
@@ -137,7 +141,6 @@ main{
 }
 .left_div > div > h1{
     font-size: 5rem;
-    font-weight: 900;
     margin-bottom: 20px;
 }
 .left_div > div >p{
@@ -196,6 +199,11 @@ main{
     border-radius: 100%;
     margin-left: 2px;
     margin-right: 20px;
+}
+.video_icons > i{
+   position: relative;
+   left: 35%;
+    top: 10px;
 }
 
 .banner_img{
@@ -397,6 +405,9 @@ main{
     align-items: center;
     justify-content: end;
 }
+.img_h1{
+    font-weight: 500;
+}
 
 /* ...............................................................END MAIN CONTAINER'S 3 PART*/
 
@@ -469,12 +480,12 @@ td{
     display: flex;
     justify-content: center;
 }
-.BMI_Calculator_cards > .right_card > div >h1{
+form > .right_card > div >h1{
     font-size: 34px;
     font-weight: 200;
     margin-top: 25px;
 }
-.BMI_Calculator_cards > .right_card > div >p{
+form > .right_card > div >p{
     font-size: var(--p-size);
     color: #c9c2c2bd;
 }
@@ -578,7 +589,6 @@ button[type="submit"]{
 
 
 .img_container > div{
-
     width: 100%;
     height: 100%;
 }
@@ -593,7 +603,7 @@ button[type="submit"]{
     font-weight: 900;
     position: relative;
     bottom:20%;
-    right: 20%;
+    right: 9%;
 }
 .img_container > div > p{
     position: relative;
@@ -619,7 +629,7 @@ footer{
 .left_card >h1{
     margin-top: 40px;
     margin-bottom: 30px;
-    font-size: 80px;
+    font-size: 75px;
     color:var(--btn-and-logo-col);
 } 
 .left_card >p{
@@ -705,6 +715,9 @@ a{
         /* height: 134vh; */ 
         height: 100%;
     }
+    .nav_container{
+        margin-bottom: 20px;
+    }
     .nav_container > h1{
         font-size: 1.5rem;
     }
@@ -730,6 +743,13 @@ a{
     .left_div > div>h1{
         text-align: center;
         font-size: 2.7rem;
+    }
+    .span {
+        font-size: 2.7rem;
+        letter-spacing: 0px;
+    }
+    .span_input {
+        font-size: 1.2rem;
     }
     .left_div > div >p{
         text-align: center;
@@ -765,10 +785,16 @@ a{
         top: 100%;
     }
     .scircle{
-        width: 42%;
-        height:65%;
-        margin-left: 13px;
+            width: 100%;
+            height: 59%;
+            margin-left: 5px;
     }
+    .video_icons > i{
+        font-size: 14px;
+        position: relative;
+        left: 37%;
+         top: 1px;
+     }
     .transparent_div:nth-child(2){ 
         right: 60%;
         top: 85%;
@@ -874,6 +900,8 @@ a{
     }
     td {
         padding: 10px 5px;
+        letter-spacing: 0;
+        font-size: 15px;
     }
     .BMI_Calculator_cards > .right_card {
         width: 100%;
@@ -952,7 +980,7 @@ a{
         background-color: var(--p-col);
     }
     .footer_bottom > h2{
-        font-size: 20px;
+        font-size: 15px;
     }
     /* ........................................................END FOOTER PART */
 
