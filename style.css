@@ -602,3 +602,75 @@ button[type="submit"]{
 }
 /* ..................................................................END MAIN CONTAINER'S  5  PART*/
 
+
+
+
+
+
+footer{
+    background:#1b1b1b;
+}
+
+.footer_cards{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left_card >h1{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 80px;
+    color:var(--btn-and-logo-col);
+} 
+.left_card >p{
+    color:var(--p-col);
+    padding: 10px;
+} 
+.mid_card >h1{
+    margin: 20px;
+    font-size:30px;
+}
+.right_card > h1{
+    margin: 20px;
+    font-size:30px;
+}
+
+.mid_link_container >  li{
+    list-style-type: none;
+    padding: 9px;
+}
+.right_link_container >  li{
+    list-style-type: none;
+    padding: 9px;
+}
+a{
+    text-decoration: none;
+    color: var(--p-col);
+    font-size: 1.2rem;
+}
+
+
+
+.copy_write_items{
+    margin-top: 30px;
+}
+.border{
+
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 1px;
+    background-color: white;
+}
+.footer_bottom{
+    text-align: center;
+    padding: 10px;
+}
+.footer_bottom > h2{
+    font-weight: 200;
+}
+
+
+/* ....................................................................END FOOTER PART */
+
