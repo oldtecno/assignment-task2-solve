@@ -52,8 +52,9 @@
 
 .span{
     font-family: 'Miama', sans-serif;
-    font-size: 5rem;
+    font-size: 6rem;
     letter-spacing: 1px;
+    font-weight: 200;
 }
 
 
@@ -140,8 +141,10 @@ main{
     margin-top: 80px;
 }
 .left_div > div > h1{
+    font-weight:600;
     font-size: 5rem;
     margin-bottom: 20px;
+    line-height: 4.7rem;
 }
 .left_div > div >p{
     color: white;
@@ -178,7 +181,7 @@ main{
     align-items: center;
     height: 90px;
     width: 190px;
-    background: rgba(252, 252, 252, 0.082);
+    background: linear-gradient(#ffffff10,#ffffff10);
     backdrop-filter:blur(9px);
     border-radius: 10px;
 }
@@ -319,6 +322,10 @@ main{
     width: 100%;
     border-radius: var(--btn-radius);
     box-shadow: 6px 3px 10px 0px #000000;
+
+
+    object-fit: none; /* new add */
+    object-position: 67% 35%; /* new add */
 }
 
 /* ......................................................................END MAIN CONTAINER'S 2 PART */
@@ -597,8 +604,10 @@ button[type="submit"]{
     width: 100%;
     height: 100%;
     box-shadow: 2px 1px 8px 0px  #000000 ;
+    object-fit: cover; /* new add */  
+    object-position: top;
 }
-.img_container > div > h2{
+.img_container > div > h2{ 
     color: rgb(255, 255, 255);
     font-weight: 900;
     position: relative;
@@ -712,7 +721,6 @@ a{
 
 @media screen and (max-width:576px) {
     .header_container {
-        /* height: 134vh; */ 
         height: 100%;
     }
     .nav_container{
@@ -733,7 +741,6 @@ a{
     
     .div_container{
         flex-direction: column;
-        /* gap: 20px; */
         align-items: center;
     }
     .div_container>.left_div {
@@ -743,10 +750,10 @@ a{
     .left_div > div>h1{
         text-align: center;
         font-size: 2.7rem;
+        line-height: 3rem;
     }
     .span {
-        font-size: 2.7rem;
-        letter-spacing: 0px;
+        font-size: 3.5rem;
     }
     .span_input {
         font-size: 1.2rem;
@@ -782,7 +789,7 @@ a{
     }
     .transparent_div:nth-child(1){ 
         right: 8%;
-        top: 100%;
+        top: 110%;
     }
     .scircle{
             width: 100%;
@@ -797,7 +804,7 @@ a{
      }
     .transparent_div:nth-child(2){ 
         right: 60%;
-        top: 85%;
+        top: 93%;
     }
     .banner_img {
         height: 100vw;
@@ -847,6 +854,10 @@ a{
         margin-top: 30px;
     }
 
+    .main_container_2_part_card_div > .fight_div > img {
+        object-fit: inherit;
+        object-position: inherit;
+    }
     /* .................................................................END MAIN CONTAINER'S 2 PART */
 
 
